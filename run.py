@@ -98,5 +98,5 @@ void loop(){}
 
 
 path = 'file_name'
-
-jpeg_writer(path, 'img.jpg', 0.2)
+img = 'img.jpg'
+jpeg_writer(path, img, 0.2)
