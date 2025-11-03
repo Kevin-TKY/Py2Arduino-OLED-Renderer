@@ -97,6 +97,6 @@ void loop(){}
 
 
 
-path = 'file_name'
+path = 'output_file_name'
 img = 'img.jpg'
 jpeg_writer(path, img, 0.2)
