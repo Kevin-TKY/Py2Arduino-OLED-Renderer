@@ -63,8 +63,7 @@ def jpeg_writer(path, img_name, brightness=0.3, resolution=None):
     img_t = img_t/255.0
     
     with open(os.path.join(path, path)+'.ino', 'w') as fi:
-        print('''
-#include <Adafruit_SSD1306.h>
+        print('''#include <Adafruit_SSD1306.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_BusIO_Register.h>
 Adafruit_SSD1306 oled(128,64,&Wire,-1);
