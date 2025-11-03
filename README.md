@@ -3,7 +3,7 @@
 
 <img src="https://github.com/Kevin-TKY/Py2Arduino-OLED-Renderer/blob/main/img.jpg" height="200">  <img src="https://github.com/Kevin-TKY/Py2Arduino-OLED-Renderer/blob/main/IMG_8801.JPG" height="200">
 
-Set file name, image name, and brightness in `run.py`:
+Set output file name, image name, and brightness in `run.py`:
 
 ```
 path = 'file_name'
